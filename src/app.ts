@@ -9,7 +9,7 @@ import {Strategy as TwitterStrategy} from 'passport-twitter'
 
 import TwitterTokens from './models/TwitterTokens'
 
-mongoose.connect(process.env.DB_CONNECTION_URI, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.DB_CONNECTION_URI, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
 
 const twitterStrategy = new TwitterStrategy({
   consumerKey: process.env.TWITTER_KEY,
