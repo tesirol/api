@@ -7,7 +7,7 @@ const TwitterProfilePhotoSchema = new Schema({
 })
 
 const TwitterProfileSchema = new Schema({
-  id: String,
+  id: {type: String, unique: true},
   username: String,
   displayName: String,
   photos: [TwitterProfilePhotoSchema],
