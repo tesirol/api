@@ -14,7 +14,7 @@ mongoose.connect(process.env.DB_CONNECTION_URI, {useNewUrlParser: true, useUnifi
 const twitterStrategy = new TwitterStrategy({
   consumerKey: process.env.TWITTER_KEY,
   consumerSecret: process.env.TWITTER_SECRET,
-  callbackURL: 'http://localhost:3000/oauth/twitter/callback'
+  callbackURL: process.env.TWITTER_CALLBACK
 }, async (token, tokenSecret, profile, cb) => {
   const twitterToken = await TwitterTokens.create({
     token,
