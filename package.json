@@ -22,7 +22,7 @@
   "dependencies": {
     "@types/express-session": "^1.15.16",
     "@types/mongoose": "^5.5.35",
-    "@types/passport": "^1.0.2",
+    "@types/passport": "^1.0.3",
     "@types/passport-twitter": "^1.0.34",
     "dotenv": "^8.2.0",
     "express-session": "^1.17.0",
