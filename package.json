@@ -20,7 +20,7 @@
     "cli": "node dist/cli"
   },
   "dependencies": {
-    "@types/express-session": "^1.15.16",
+    "@types/express-session": "^1.17.0",
     "@types/mongoose": "^5.5.35",
     "@types/passport": "^1.0.3",
     "@types/passport-twitter": "^1.0.34",
