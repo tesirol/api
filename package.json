@@ -23,7 +23,7 @@
     "@types/express-session": "^1.17.0",
     "@types/mongoose": "^5.7.8",
     "@types/passport": "^1.0.3",
-    "@types/passport-twitter": "^1.0.34",
+    "@types/passport-twitter": "^1.0.37",
     "dotenv": "^8.2.0",
     "express-session": "^1.17.0",
     "mongoose": "^5.9.7",
